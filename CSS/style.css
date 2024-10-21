@@ -4,6 +4,21 @@ body {
 }
 
 header{
-    display:flex ;
+    display: flex ;
     justify-content: space-between;
+    align-items: center;
+    font-size: 10pt;
+    border-bottom: 1px solid #808080;
+}
+
+.dot {
+    color: #1bd792;
+}
+
+.logo em{
+    margin: 0 7px;
+}
+
+.marge {
+    margin: 0 150px;
 }

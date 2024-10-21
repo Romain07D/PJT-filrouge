@@ -1,24 +1,98 @@
-body {
+body
+{
     background-color: #041821;
     color: white;
 }
 
-header{
+header
+{
     display: flex ;
     justify-content: space-between;
     align-items: center;
     font-size: 10pt;
     border-bottom: 1px solid #808080;
+    font-family: "Yeseva One", serif;
 }
 
-.dot {
+.green
+{
     color: #1bd792;
 }
 
-.logo em{
-    margin: 0 7px;
+.logo em
+{
+    margin: 0 9px;
 }
 
-.marge {
+.main
+{
     margin: 0 150px;
+    font-size: 40pt;
+    font-family: "Yeseva One", serif;
+}
+
+.main2
+{
+    margin: 0 150px;
+    font-size: 14pt;
+    color: #808080;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu
+{
+    align-items: center;
+    display: flex ;
+    justify-content: space-around;
+    margin: 60 700px;
+    color: white;
+    letter-spacing: normal;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.green_box
+{
+    width: 21%;
+    height: 28px;
+    background-color: #1bd792;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 5px auto;
+    max-width: 1750px;
+}
+
+.images img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer
+{
+    margin: 60px 0;
+    font-family: "Montserrat", sans-serif;
+    color: #808080;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer
+{
+    margin-left: 35px;
+    font-size: 10px;
 }
